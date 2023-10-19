@@ -14,7 +14,9 @@
 
 + 인라인요소 :
 ```
-<span>, <a href="">, <img src="">
+<span> </span>
+<a href=""> </a>
+<img src="">
 ```
 
 ## 시맨틱태그
