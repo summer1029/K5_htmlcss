@@ -18,13 +18,12 @@
 ```
 
 ## 시맨틱태그
-'''
+```
 <main> </main>
 <header> </header>
 <nav> </nav>
 <section> </section>
 <article> </article>
 <footer> </footer>
-'''
 
-## CSS
+```
