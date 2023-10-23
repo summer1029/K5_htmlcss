@@ -1,0 +1,97 @@
+/* 모든 노드들에 적용 */
+* {
+    /* 바깥쪽 여백 : margin - px */
+    margin : 0px; 
+    /* 블럭 안에 생기는 여백(안쪽 여백) : padding - px */
+    padding : 0px;
+}
+
+main {
+    background-color: aliceblue;
+
+    /* 화면 크기의 60%만 차지하도록 너비를 정한다 : width, height >> 화면을 줄여도 그 줄인 화면의 60%만 차지하게 된다 */
+    width : 60%;
+
+    /* 화면의 중간에 위치 >> 여백을 줌으로써 정렬시키기 */
+    margin-left : 20%;
+}
+
+header {
+    padding : 50px;
+}
+
+/* h1과 nav사아의 간격을 띄우기 위해 */
+header > h1 {
+    margin-bottom:50px;
+    text-align: center;
+}
+
+/* ul = container */
+ul {
+    /* background-color: blue; */
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    height: 80px;
+    align-items: center;
+}
+
+li {
+    background-color: skyblue;
+    color : white;
+    width : 80px;
+    margin-left : 10px;
+
+    /* padding : top right bottom left */
+    /* padding : top&bottom right&left*/
+    padding : 10px 5px;
+    text-align : center;
+    border-radius: 5px;
+}
+
+/* 조상노드에서 찾기 */
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 30px;
+}
+
+section > h1 {
+    margin-bottom: 30px;
+}
+
+article {
+    margin: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+}
+
+article > h2 {
+    padding : 15px;
+}
+
+article > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divimg {
+    width: 30%;
+    text-align: center;
+}
+
+article p {
+    width: 70%;
+}
+
+footer {
+    margin: 15px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
